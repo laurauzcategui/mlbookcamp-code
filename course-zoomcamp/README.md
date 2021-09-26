@@ -3,8 +3,8 @@
 <a href="https://datatalks.club/courses/2021-winter-ml-zoomcamp.html"><img src="../images/zoomcamp.jpg" /></a>
 
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
-* [Course playlist](https://www.youtube.com/watch?v=rowoDjPc8HU&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w)
+* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+* [Register for the course here](https://airtable.com/shr6Gz46UZCgJ9l6w) (you can register for the course at any point of time!)
 * [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
 
@@ -45,25 +45,24 @@
 - 2.18 [Homework](02-regression/homework.md)
 
 
-## 3. Machine Learning for Classification
+## 3. [Machine Learning for Classification](03-classification/)
 
-- Churn prediction project
-- Initial data preparation
-- Setting up the validation framework
-- EDA
-- Feature importance: Churn rate
-- Feature importance: Risk ratio
-- Feature importance: Mutual information
-- Feature importance: Correlation
-- One-hot Encoding
-- Logistic regression
-- Logistic regression with sklearn
-- Using logistic regression (?)
-- Logistic regression - interpretation
-- Applying logistic regression
-- Summary
-- Explore more
-- Homework
+- 3.1 [Churn prediction project](03-classification/01-churn-project.md)
+- 3.2 [Data preparation](03-classification/02-data-preparation.md)
+- 3.3 [Setting up the validation framework](03-classification/03-validation.md)
+- 3.4 [EDA](03-classification/04-eda.md)
+- 3.5 [Feature importance: Churn rate and risk ratio](03-classification/05-risk.md)
+- 3.6 [Feature importance: Mutual information](03-classification/06-mutual-info.md)
+- 3.7 [Feature importance: Correlation](03-classification/07-correlation.md)
+- 3.8 [One-hot encoding](03-classification/08-ohe.md)
+- 3.9 [Logistic regression](03-classification/09-logistic-regression.md)
+- 3.10 [Training logistic regression with Scikit-Learn](03-classification/10-training-log-reg.md)
+- 3.11 [Model interpretation](03-classification/11-log-reg-interpretation.md)
+- 3.12 [Using the model](03-classification/12-using-log-reg.md)
+- 3.13 [Summary](03-classification/13-summary.md)
+- 3.14 [Explore more](03-classification/14-explore-more.md)
+- 3.15 [Homework](03-classification/homework.md)
+
 
 ## 4. Evaluation Metrics for Classification
 
