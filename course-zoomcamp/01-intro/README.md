@@ -13,3 +13,9 @@
 - 1.11 [Homework](homework.md)
 
 
+## Community notes
+
+Did you take notes? You can share them here (or in each unit separately)
+
+* [Notes by Ayoub Berdeddouch](https://github.com/ayoub-berdeddouch/mlbookcamp-homeworks/blob/main/Intro/homework_intro_AyoubBerdeddouch.ipynb)
+* Add your notes here
