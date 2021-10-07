@@ -9,12 +9,14 @@ In this homework, we'll use the churn prediction model trained on a smaller set 
 * What's the version of pipenv you installed?
 * Use `--version` to find out
 
+Answer: `pipenv, version 2021.5.29`
 
 ## Question 2
 
 * Use Pipenv to install Scikit-Learn version 1.0
 * What's the first hash for scikit-learn you get in Pipfile.lock? 
 
+Answer: `121f78d6564000dc5e968394f45aac87981fcaaf2be40cfcd8f07b2baa1e1829`
 
 ## Models
 
@@ -51,6 +53,12 @@ Let's use these models!
 
 What's the probability that this customer is churning? 
 
+Answer: 
+```
+{'churn probability': 0.115}
+
+Rounded to 3 decimals
+```
 
 ## Question 4
 
@@ -68,6 +76,10 @@ requests.post(url, json=customer).json()
 
 What's the probability that this customer is churning?
 
+Answer: 
+```
+'churn probability': 0.9988892771007961
+```
 
 ## Docker
 
@@ -98,6 +110,7 @@ FROM agrigorev/zoomcamp-model:3.8.12-slim
 # add your stuff here
 ```
 
+
 Now complete it:
 
 * Install all the dependencies form the Pipenv file
@@ -112,6 +125,10 @@ Look at the first step of your build log. It should look something like that:
 ```
 Step 1/3 : FROM python:3.8.12-slim
  ---> 2e56f6b0af69
+```
+Answer:
+```
+Digest: 1ee036b365452f8a1da0dbc3bf5e7dd0557cfd33f0e56b28054d1dbb9c852023
 ```
 
 ## Question 6
@@ -128,6 +145,10 @@ requests.post(url, json=customer).json()
 
 What's the probability that this customer is churning?
 
+Answer: 
+```json
+{'churn probability': 0.728}
+```
 
 ## Submit the results
 

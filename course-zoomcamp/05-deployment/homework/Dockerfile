@@ -1,4 +1,4 @@
-FROM python:3.8.12-slim
+FROM agrigorev/zoomcamp-model:3.8.12-slim
 
 # Install pipenv
 RUN pip install pipenv
@@ -15,8 +15,8 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 RUN pipenv install --system --deploy
 
 # Copy the files
-COPY ["predict_v1.py", "model_C=1.0.bin", "./"]
+COPY ["homework_q4.py", "./"]
 
 EXPOSE 9696
 
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict_v1:app"]
+ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "homework_q4:app"]
