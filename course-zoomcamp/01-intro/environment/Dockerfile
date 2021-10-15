@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     git \
     bzip2 \
     wget \
+    unzip \
  && rm -rf /var/lib/apt/lists/*
 
 # Create a working directory
@@ -54,6 +55,10 @@ RUN $HOME/anaconda3/bin/conda clean -ya
 RUN $HOME/anaconda3/bin/conda init bash
 RUN echo "source activate $(head -1 environment.yml | cut -d' ' -f2)" > ~/.bashrc
 ENV PATH /opt/conda/envs/$(head -1 environment.yml | cut -d' ' -f2)/bin:$PATH
+
+# Setup kaggle
+RUN mkdir -p ~/.kaggle
+COPY --chown=600 kaggle.json ~/.kaggle/
 
 VOLUME $datadir
 WORKDIR $datadir

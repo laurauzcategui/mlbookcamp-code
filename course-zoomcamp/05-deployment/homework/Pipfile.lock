@@ -1,11 +1,19 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD
             "sha256": "f369d0cf37ff9a144c56ee50c39da71fc00b9b4548ba6c1e4cd441c69a9141bd"
         },
         "pipfile-spec": 6,
         "requires": {
             "python_version": "3.9"
+=======
+            "sha256": "1c46dbb59cb3d84dd535efe15b0eaf13d0eeae8515cfe09a8ca02c6d812c9f82"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+>>>>>>> upstream/master
         },
         "sources": [
             {
@@ -16,6 +24,7 @@
         ]
     },
     "default": {
+<<<<<<< HEAD
         "certifi": {
             "hashes": [
                 "sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee",
@@ -38,6 +47,15 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==8.0.1"
+=======
+        "click": {
+            "hashes": [
+                "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3",
+                "sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.0.3"
+>>>>>>> upstream/master
         },
         "flask": {
             "hashes": [
@@ -55,6 +73,7 @@
             "index": "pypi",
             "version": "==20.1.0"
         },
+<<<<<<< HEAD
         "idna": {
             "hashes": [
                 "sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a",
@@ -63,6 +82,8 @@
             "markers": "python_version >= '3'",
             "version": "==3.2"
         },
+=======
+>>>>>>> upstream/master
         "itsdangerous": {
             "hashes": [
                 "sha256:5174094b9637652bdb841a3029700391451bd092ba3db90600dea710ba28e97c",
@@ -183,6 +204,7 @@
             "markers": "python_version < '3.11' and python_version >= '3.7'",
             "version": "==1.21.2"
         },
+<<<<<<< HEAD
         "requests": {
             "hashes": [
                 "sha256:6c1246513ecd5ecd4528a0906f910e8f0f9c6b8ec72030dc9fd154dc1a6efd24",
@@ -191,6 +213,8 @@
             "index": "pypi",
             "version": "==2.26.0"
         },
+=======
+>>>>>>> upstream/master
         "scikit-learn": {
             "hashes": [
                 "sha256:121f78d6564000dc5e968394f45aac87981fcaaf2be40cfcd8f07b2baa1e1829",
@@ -220,7 +244,11 @@
                 "sha256:f8aecb3edc443e5625725ae1ef8f500fa78ce7cb0e864115864bb9f234d18290"
             ],
             "index": "pypi",
+<<<<<<< HEAD
             "version": "==1.0.0"
+=======
+            "version": "==1.0"
+>>>>>>> upstream/master
         },
         "scipy": {
             "hashes": [
@@ -255,6 +283,7 @@
             "markers": "python_version >= '3.6'",
             "version": "==3.0.0"
         },
+<<<<<<< HEAD
         "urllib3": {
             "hashes": [
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
@@ -263,6 +292,8 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
             "version": "==1.26.7"
         },
+=======
+>>>>>>> upstream/master
         "werkzeug": {
             "hashes": [
                 "sha256:63d3dc1cf60e7b7e35e97fa9861f7397283b75d765afcaefd993d6046899de8f",

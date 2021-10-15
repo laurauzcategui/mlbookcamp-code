@@ -7,3 +7,4 @@ __pycache__/
 /chapter-08-serverless/clothing-model-v4.tflite
 datasets/*
 *.bin
+kaggle.json
